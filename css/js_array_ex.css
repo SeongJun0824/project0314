@@ -1,0 +1,34 @@
+@import url(common/reset.css);
+
+.section{
+  width: 100vw;  
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section .sec-con{
+  flex: 0 1 600px;
+  height: 400px;
+  position: relative;
+  border: 1px solid;
+  box-sizing: border-box;
+}
+.section .sec-con .gallery{
+  width: 500%;
+  height: inherit;
+  position: absolute;
+  border: 1px solid;
+  box-sizing: border-box;
+}
+.section .sec-con .gallery>ul{
+  display: flex;
+  justify-content: space-between;
+  height: inherit;
+}
+.section .sec-con .gallery>ul>li{
+  flex: 1;
+  height: inherit;
+  border: 1px solid;
+  box-sizing: border-box;
+}
